@@ -1,0 +1,28 @@
+body {
+	background-image: url("../images/swayambhu.jpg");
+	background-size: 100%;
+	margin-left: 20px
+}
+h1{
+	color: #EBDB96;
+	font-style: bold;
+	font-size: 55px;
+
+}
+p1 {
+	color: #FFDBF5;
+	font-style: italic;
+	font-size: 27.5px;
+}
+p {
+	color: #FFF4F0;
+	font-size: 18px;
+}
+li {
+	color: #FFF4F0;
+	font-size: 18px;
+}
+a{
+	color: #FFF4F0;
+	
+}
