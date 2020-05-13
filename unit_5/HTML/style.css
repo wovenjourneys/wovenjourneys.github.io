@@ -4,9 +4,8 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-body {
-	background-color: lightblue;
-	
+div{
+	display: inline-block;
 }
 header {
 	background-image: url("../images/swayambhu.jpg");
@@ -32,14 +31,25 @@ h3 {
 	font-weight: 25;
 	padding-left: 3em;
 }
-#main{
+.info-block{
+	display: inline-block;
 	float: left;
-
 }
-.description{
-	float: right;
+#city{
+	background-size: contain;
+	height: 50vh;
 }
-.photo {
+.prints-block{
+	display: inline-block;
+}
+#mountain {
+	background-size: contain;
+	height: 50vh;
+}
+.about-block{
+	display: inline-block;
+}
+#photo{
 	background-size: contain;
 	height: 50vh;
 }
