@@ -4,13 +4,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-div{
-	display: inline-block;
-}
 header {
 	background-image: url("../images/swayambhu.jpg");
 	background-size: cover;
-	height: 95vh;
+	height: 100vh;
 	background-repeat: no-repeat;
 	background-position: top;
 }
@@ -31,27 +28,20 @@ h3 {
 	font-weight: 25;
 	padding-left: 3em;
 }
+nav a{
+	display: inline-block;
+	padding: 2em;
+	font-size: 16px;
+}
 .info-block{
-	display: inline-block;
 	float: left;
-}
-#city{
-	background-size: contain;
-	height: 50vh;
-}
-.prints-block{
-	display: inline-block;
-}
-#mountain {
-	background-size: contain;
-	height: 50vh;
-}
-.about-block{
-	display: inline-block;
+	width: 50%
 }
 #photo{
-	background-size: contain;
-	height: 50vh;
+	width: 50%;
+}
+.left .photo, .left .info-block{
+	float: right;
 }
 p {
 	color: black;
@@ -62,6 +52,11 @@ a {
 	color: #FFF4F0;
 	
 }
-.footer {
+footer {
 	background-color: #FF957E
+}
+.clearfix .all {
+  content: "";
+  clear: both;
+}
 }
