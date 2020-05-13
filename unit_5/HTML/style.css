@@ -1,43 +1,51 @@
 @import url(https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap);
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
-	background-color: #FFED74;
+	background-color: lightblue;
 	
 }
 header {
 	background-image: url("../images/swayambhu.jpg");
-	background-size: 100%;
-	height: 50em;
-	padding-left: 20px;
+	background-size: cover;
+	height: 95vh;
+	background-repeat: no-repeat;
+	background-position: top;
 }
 h1 {
 	color: #EBDB96;
 	font-family: 'Oswald', sans-serif;
-	font-size: 60px;
+	font-size: 90px;
 	text-transform: uppercase;
 	font-weight: 35;
+	padding-left: 3em;	
+	padding-top: .5em;
 }
 h3 {
 	color: #FFDBF5;
-	font-size: 30px;
+	font-size: 40px;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	font-weight: 25;
-} 
-nav {
-	background-color: #E8C66A
+	padding-left: 3em;
 }
-aside {
-	background-color: #FFC675
+#main {
+  float: left;
+  padding-top: 3em;
+  padding-left: 3em;
+  border: 1px green; 
+
 }
-article {
-	background-color: #E89C6C
+.photo {
+	background-size: contain;
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-position: right;
 }
 p {
-	color: #FFF4F0;
-	font-size: 16.5px;
-	font-family: 'Lato', serif;
-}
-li {
 	color: #FFF4F0;
 	font-size: 16.5px;
 	font-family: 'Lato', serif;
@@ -46,6 +54,6 @@ a {
 	color: #FFF4F0;
 	
 }
-footer{
+.footer {
 	background-color: #FF957E
 }
