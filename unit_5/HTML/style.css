@@ -37,10 +37,10 @@ nav a{
 	float: left;
 	width: 50%
 }
-#photo{
+.photo{
 	width: 50%;
 }
-.left .photo, .left .info-block{
+.left .info-block{
 	float: right;
 }
 p {
