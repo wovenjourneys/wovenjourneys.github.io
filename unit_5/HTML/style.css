@@ -32,18 +32,16 @@ h3 {
 	font-weight: 25;
 	padding-left: 3em;
 }
-#main {
-  float: left;
-  padding-top: 3em;
-  padding-left: 3em;
-  box-sizing: border-box;
+#main{
+	float: left;
 
+}
+.description{
+	float: right;
 }
 .photo {
 	background-size: contain;
 	height: 50vh;
-	background-repeat: no-repeat;
-	background-position: right;
 }
 p {
 	color: #FFF4F0;
