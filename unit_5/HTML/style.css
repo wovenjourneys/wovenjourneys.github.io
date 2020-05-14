@@ -52,11 +52,23 @@ nav a{
 	width: 50%;
 }
 .photography{
-	width: 35%;
-	display: inline-grid;
+	width: 30%;
+	display: grid inline-block;
+	padding: 4em;
 }
-.left .info-block{
-	float: right;
+.photograph{
+	width: 30%;
+	display: grid inline-block;
+	padding: 4em;
+}
+.left .infor-block{
+	float: below;
+	width: 80%;
+	padding: 4em;
+	margin-left: 5%;
+	text-align: center;
+	background-color: #FAF5F2;
+
 }
 .all{
 	max-width: 80em;
