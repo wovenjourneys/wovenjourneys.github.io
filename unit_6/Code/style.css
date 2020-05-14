@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap);
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	background-image: url("../images/swayambhu.jpg");
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+h1 {
+	color: #FFF7FC;
+	font-family: 'Oswald', sans-serif;
+	font-size: 90px;
+	text-transform: uppercase;
+	font-weight: 35;
+	padding-left: 2em;	
+	padding-top: .5em;
+}
+h2 {
+	color: #FFF7FC;
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 25;
+	padding-left: 3em;
+}
+h3{
+	color: #EBDB96;
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 25;
+	padding-left: 3em;
+}
+nav a{
+	display: inline-block;
+	padding: 2em;
+	font-size: 16px;
+	text-decoration: none;
+}
+.info-block{
+	float: left;
+	width: 50%;
+	padding: 4em;
+	margin-top: 2%;
+	background-color: #FAF5F2;
+
+}
+.photo{
+	width: 50%;
+}
+.photography{
+	width: 30%;
+	display: grid inline-block;
+	padding: 4em;
+}
+.photograph{
+	width: 30%;
+	display: grid inline-block;
+	padding: 4em;
+}
+.left .infor-block{
+	float: below;
+	width: 80%;
+	padding: 4em;
+	margin-left: 5%;
+	text-align: center;
+	background-color: #FAF5F2;
+
+}
+.all{
+	max-width: 80em;
+	margin: 3em auto;
+}
+p {
+	color: #103524;
+	font-size: 18px;
+	font-family: 'Lato', serif;
+}
+a {
+	color: #FFF4F0;
+	
+}
+footer {
+	background-color: #FF957E
+}
+.clearfix .all {
+  content: "";
+  clear: both;
+}
+}
