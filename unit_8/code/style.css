@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap);
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	background-image: url("../images/swayambhu.jpg");
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+h1 {
+	color: #FFF7FC;
+	font-family: 'Oswald', sans-serif;
+	font-size: 90px;
+	text-transform: uppercase;
+	font-weight: 35;
+	padding-left: 1.20em;	
+	padding-top: .5em;
+}
+h2 {
+	color: #FFF7FC;
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 25;
+	padding-left: 3em;
+}
+h3{
+	color: #EBDB96;
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 25;
+	padding-left: 3em;
+}
+h4{
+	color: #EBDB96;
+	font-size: 35px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 25;
+	padding-left: 3em;
+
+}
+nav {
+	display:inline-block;
+	font-size: 17px;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 3em;
+
+}
+a {
+	color: #FFF4F0;
+	text-decoration: none;
+	padding: 2em;
+	
+}
+p {
+	color: #103524;
+	font-size: 18px;
+	font-family: 'Lato', serif;
+}
+.info-block{
+	float: left;
+	width: 50%;
+	padding: 4em;
+	margin-top: 2%;
+	background-color: #FAF5F2;
+	text-align: center;
+	vertical-align: center;
+
+}
+.photo{
+	width: 50%;
+}
+.photography{
+	width: 30%;
+	display: grid inline-block;
+	padding: 4em;
+	margin-left: 2%;
+}
+.photograph{
+	width: 30%;
+	display: grid inline-block;
+	padding: 4em;
+	margin-left: 2%;
+}
+.left .infor-block{
+	float: below;
+	width: 80%;
+	padding: 4em;
+	margin:auto;
+	text-align: center;
+	background-color: #FAF5F2;
+
+}
+.all{
+	max-width: 80em;
+	margin: 3em auto;
+}
+.wrapper {
+	background-color: #FAF5F2;
+	padding:60px,0px;
+	width: 100%;
+}
+#left{
+	background-color: #FAF5F2;
+	border: 2px pink solid;
+	padding: 4em;
+	float: right;
+	width: 62%;
+	margin-right: 3%;
+	margin-top: 4%;
+
+}
+#right{
+	background-color: #FAF5F2;
+	border: 2px pink solid;
+	padding: 4em;
+	float: left;
+	width: 30%;
+	margin-left: 3%;
+
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.nav a{
+	display: inline-block;
+	padding: 5em;
+	font-size: 12px;
+	float: center;
+	text-decoration: none;
+	color:black;
+}
+i {
+	display: inline-block;
+	padding: 3em;
+	color:black;
+	clear: both;
