@@ -17,8 +17,8 @@ h1 {
 	font-size: 90px;
 	text-transform: uppercase;
 	font-weight: 35;
-	padding-left: 1.20em;	
-	padding-top: .5em;
+	padding-left: 3.5%;	
+	padding-top: 3%;
 }
 h2 {
 	color: #FFF7FC;
@@ -26,15 +26,7 @@ h2 {
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	font-weight: 25;
-	padding-left: 3em;
-}
-h3{
-	color: #EBDB96;
-	font-size: 40px;
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-	font-weight: 25;
-	padding-left: 3em;
+	padding-left: 4%;
 }
 h4{
 	color: #EBDB96;
@@ -42,14 +34,13 @@ h4{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	font-weight: 25;
-	padding-left: 3em;
 
 }
 nav {
 	display:inline-block;
 	font-size: 17px;
 	font-family: 'Oswald', sans-serif;
-	padding-top: 3em;
+	padding-top: 3%;
 
 }
 a {
@@ -66,12 +57,17 @@ p {
 .info-block{
 	float: left;
 	width: 50%;
-	padding: 4em;
+	padding: 4%;
 	margin-top: 2%;
 	background-color: #FAF5F2;
 	text-align: center;
 	vertical-align: center;
 
+}
+.clearfix:after {
+    display: block;
+    content: " ";
+    clear: both;    
 }
 .photo{
 	width: 50%;
@@ -79,19 +75,19 @@ p {
 .photography{
 	width: 30%;
 	display: grid inline-block;
-	padding: 4em;
+	padding: 4%;
 	margin-left: 2%;
 }
 .photograph{
 	width: 30%;
 	display: grid inline-block;
-	padding: 4em;
+	padding: 4%;
 	margin-left: 2%;
 }
 .left .infor-block{
 	float: below;
 	width: 80%;
-	padding: 4em;
+	padding: 4%;
 	margin:auto;
 	text-align: center;
 	background-color: #FAF5F2;
@@ -99,7 +95,7 @@ p {
 }
 .all{
 	max-width: 80%;
-	margin: 3em auto;
+	margin: 3% auto;
 }
 .wrapper {
 	background-color: #FAF5F2;
@@ -111,8 +107,13 @@ p {
     content: " ";
     clear: both;    
 }
+.wrapper {
+	margin: 0auto;
+	width: 630px;
+}
 .nav a{
-	display: inline-block;
+	margin:0 auto;
+	width: 630px;
 	padding: 5em;
 	font-size: 12px;
 	float: center;
@@ -120,8 +121,7 @@ p {
 	color:black;
 }
 i {
-	display: inline-block;
-	padding: 3em;
+	padding: 3%;
 	color:black;
 	clear: both;
 }
