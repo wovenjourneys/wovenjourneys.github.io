@@ -14,23 +14,23 @@ header {
 h1 {
 	color: #FFF7FC;
 	font-family: 'Oswald', sans-serif;
-	font-size: 90px;
+	font-size: 7.5em;
 	text-transform: uppercase;
 	font-weight: 35;
-	padding-left: 3.5%;	
+	padding-left: 2.6%;	
 	padding-top: 3%;
 }
 h2 {
 	color: #FFF7FC;
-	font-size: 40px;
+	font-size: 2.5em;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	font-weight: 25;
-	padding-left: 4%;
+	padding-left: 3%;
 }
 h4{
 	color: #EBDB96;
-	font-size: 35px;
+	font-size: 2em;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	font-weight: 25;
@@ -38,7 +38,7 @@ h4{
 }
 nav {
 	display:inline-block;
-	font-size: 17px;
+	font-size: 1.2em;
 	font-family: 'Oswald', sans-serif;
 	padding-top: 3%;
 
@@ -51,7 +51,7 @@ a {
 }
 p {
 	color: #103524;
-	font-size: 18px;
+	font-size: 1.3em;
 	font-family: 'Lato', serif;
 }
 .info-block{
@@ -95,7 +95,7 @@ p {
 }
 .all{
 	max-width: 80%;
-	margin: 3% auto;
+	margin: 3em auto;
 }
 .wrapper {
 	background-color: #FAF5F2;
@@ -121,7 +121,7 @@ p {
 	color:black;
 }
 i {
-	padding: 3%;
+	padding: 3em;
 	color:black;
 	clear: both;
 }
