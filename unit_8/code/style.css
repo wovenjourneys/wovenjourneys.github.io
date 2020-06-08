@@ -91,40 +91,53 @@ p {
 	margin:auto;
 	text-align: center;
 	background-color: #FAF5F2;
+	clear: after;
 
 }
 .all{
 	max-width: 80%;
 	margin: 3em auto;
 }
-.wrapper {
-	background-color: #FAF5F2;
-	padding:60px,0px;
-	width: 100%;
-}
-.clearfix:after .photography {
+.clearfix:after .all:after {
     display: block;
     content: " ";
     clear: both;    
 }
-.wrapper {
-	margin: 0auto;
-	width: 630px;
+footer {
+	margin: 0 auto;
+	background-color: #FAF5F2;
+	padding:60px,0px;
+	width: 100%;
+
 }
 .nav a{
-	margin:0 auto;
-	width: 630px;
+	margin: 0 auto;
 	padding: 5em;
 	font-size: 12px;
-	float: center;
 	text-decoration: none;
 	color:black;
+	text-align: center;
 }
 i {
 	padding: 3em;
 	color:black;
 	clear: both;
 }
-@media only screen and (min-width: 1298px) and (max-width: 860px) {
-	
+@media only screen and (max-width: 480px) {
+  h1, nav {
+    display:block;
+    text-align: center;
+  }   
+  nav a {
+    margin: 0 1em 1em;
 }
+@media only screen and (max-width: 800px) {
+  nav {
+    float: none;
+  }	
+  nav {
+    float: none;
+  }
+  nav a {
+      margin: 0 1.6em .75em 0;
+  }
