@@ -119,7 +119,8 @@ footer {
 	text-align: center;
 }
 i {
-	padding: 3em;
+	margin: 0 auto;
+	padding: 5em;
 	color:black;
 	clear: both;
 }
