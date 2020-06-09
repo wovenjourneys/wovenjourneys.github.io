@@ -36,6 +36,18 @@ h4{
 	font-weight: 25;
 
 }
+.middle {
+	color: #E8DAC8;
+	font-size: 2em;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 25;
+}
+.p{
+	color: #C8DCE8;
+	font-family: 'Lato', serif;
+
+}
 nav {
 	font-size: 1em;
 	font-family: 'Oswald', sans-serif;
@@ -58,6 +70,7 @@ p {
 	max-width: 80%;
 	margin: 3em auto;
 	position: relative;
+	margin-top: 4%;
 }
 .info-block{
 	width: 75%;
@@ -67,7 +80,7 @@ p {
 	position: absolute;
 	z-index: -1;
 	box-shadow: 2px 2px 4px rgba(0,0,0,.25);
-
+	clear: after;
 }
 .clearfix:after {
     display: block;
@@ -95,41 +108,22 @@ p {
 .left .infor-block{
 	padding: 4%;
 	margin:auto;
+	margin-top: 7%;
 	text-align: center;
 	background-color: #92A0A9;
-	color: #CFECFF;
 }
 .clearfix:after .all:after {
     display: block;
     content: " ";
     clear: both;    
 }
-.about{
-	max-width: 80%;
-	margin: 3em auto;
-	display: flex;
-	align-items: flex-start;
-}
-.about-block{
-	width: 75%;
-	padding: 5em 5em 7.6em 7em;
-	background-color: #FAF5F2;
-}
-.photoo{
-	width: 50%;
-}
-.clearfix:after .about:after {
-    display: block;
-    content: " ";
-    clear: both;    
-}
-
 footer {
 	margin: 0 auto;
 	background-color: #9E877A;
 	padding:60px,0px;
 	width: 100%;
 	text-align: center;
+	margin-top: 5em;
 
 }
 .nav a{
