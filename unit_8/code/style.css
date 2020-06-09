@@ -12,7 +12,7 @@ header {
 	background-position: top;
 }
 h1 {
-	color: #C7AB6D;
+	color: #CCA62B;
 	font-family: 'Oswald', sans-serif;
 	font-size: 7.5em;
 	text-transform: uppercase;
@@ -21,7 +21,7 @@ h1 {
 	padding-top: 1%;
 }
 h2 {
-	color: #7A715C;
+	color: #CF876D;
 	font-size: 2.5em;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -42,11 +42,6 @@ h4{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	font-weight: 25;
-}
-.p{
-	color: #C8DCE8;
-	font-family: 'Lato', serif;
-
 }
 nav {
 	font-size: 1em;
@@ -96,14 +91,14 @@ p {
 .photography{
 	width: 30%;
 	display: grid inline-block;
-	padding: 4%;
-	margin-left: 2%;
+	margin-left: 2.3%;
+	margin-top: 3%;
 }
 .photograph{
 	width: 30%;
 	display: grid inline-block;
-	padding: 4%;
-	margin-left: 2%;
+	margin-left: 2.3%;
+	margin-top: 1%;
 }
 .left .infor-block{
 	padding: 4%;
@@ -153,3 +148,4 @@ footer {
  	padding-top: .4%;
  	padding-bottom: .2%;
  }
+@media only screen and (max-width: 600px)
