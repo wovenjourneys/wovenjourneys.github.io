@@ -12,16 +12,16 @@ header {
 	background-position: top;
 }
 h1 {
-	color: #FFF7FC;
+	color: #C7AB6D;
 	font-family: 'Oswald', sans-serif;
 	font-size: 7.5em;
 	text-transform: uppercase;
 	font-weight: 35;
 	padding-left: 2.6%;	
-	padding-top: 3%;
+	padding-top: 1%;
 }
 h2 {
-	color: #FFF7FC;
+	color: #7A715C;
 	font-size: 2.5em;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -29,7 +29,7 @@ h2 {
 	padding-left: 3%;
 }
 h4{
-	color: #EBDB96;
+	color: #D6A48B;
 	font-size: 2em;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
@@ -37,20 +37,20 @@ h4{
 
 }
 nav {
-	display:inline-block;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-family: 'Oswald', sans-serif;
 	padding-top: 3%;
+	padding-left: 1.2%;
 
 }
 a {
-	color: #FFF4F0;
+	color: #5C667A;
 	text-decoration: none;
 	padding: 2em;
 	
 }
 p {
-	color: #103524;
+	color: #496161;
 	font-size: 1.3em;
 	font-family: 'Lato', serif;
 }
@@ -105,40 +105,36 @@ p {
 }
 footer {
 	margin: 0 auto;
-	background-color: #FAF5F2;
+	background-color: #9E877A;
 	padding:60px,0px;
 	width: 100%;
+	text-align: center;
 
 }
 .nav a{
 	margin: 0 auto;
-	padding: 5em;
-	font-size: 12px;
-	text-decoration: none;
-	color:black;
-	text-align: center;
+	padding: 3%;
+	font-size: .8em;
+	padding-top: 3%;
+	color: white;
 }
-i {
-	margin: 0 auto;
-	padding: 5em;
-	color:black;
-	clear: both;
+.social{ 
+	font-size: 1em;
+	padding-top: 2.5%;
+	color: white;
+ }
+
+.fa {
+      padding: 12px;
+      font-size: 18px;
+      width: 30px;
+      margin: 5px 2px;
+      color: white;
+
 }
-@media only screen and (max-width: 480px) {
-  h1, nav {
-    display:block;
-    text-align: center;
-  }   
-  nav a {
-    margin: 0 1em 1em;
-}
-@media only screen and (max-width: 800px) {
-  nav {
-    float: none;
-  }	
-  nav {
-    float: none;
-  }
-  nav a {
-      margin: 0 1.6em .75em 0;
-  }
+ .Copy {
+ 	color: white;
+ 	font-size: .8em;
+ 	padding-top: .4%;
+ 	padding-bottom: .2%;
+ }
