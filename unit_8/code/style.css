@@ -62,7 +62,7 @@ p {
 	font-family: 'Lato', serif;
 }
 .right{
-	max-width: 80%;
+	max-width: 1600px;
 	margin: 3em auto;
 	position: relative;
 	margin-top: 4%;
@@ -148,4 +148,12 @@ footer {
  	padding-top: .4%;
  	padding-bottom: .2%;
  }
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 1000px){
+.info-block, .photo{
+	width: 100%;
+	padding: 2em
+	background-color: #FAF5F2;
+	position: absolute;
+	clear: after;
+}
+}
