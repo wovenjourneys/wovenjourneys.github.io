@@ -66,6 +66,7 @@ p {
 	margin: 3em auto;
 	position: relative;
 	margin-top: 4%;
+
 }
 .info-block{
 	width: 75%;
@@ -157,20 +158,12 @@ footer {
 	position: absolute;
 	clear: after;
 }
-@media (min-width: 640px) {
-.info-block, .photo{
-	width: 100%;
-	padding: 2em
-	background-color: #FAF5F2;
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+ .info-block, .photo{
+    font-size: 50px;
+    padding: 50px;
+    background-color: #FAF5F2;
 	position: absolute;
 	clear: after;
-}
-
-@media (min-width: 768px) {
-.info-block, .photo{
-	width: 100%;
-	padding: 2em
-	background-color: #FAF5F2;
-	position: absolute;
-	clear: after;
-}
+   
+  }
