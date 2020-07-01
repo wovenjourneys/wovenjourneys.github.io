@@ -62,14 +62,14 @@ p {
 	font-family: 'Lato', serif;
 }
 .right{
-	max-width: 80%;
+	max-width: 80em;
 	margin: 3em auto;
 	position: relative;
 	margin-top: 4%;
 }
 .info-block{
 	width: 75%;
-	padding: 5em 22em 7em 5em;
+	padding: 5em 27% 7em 5em;
 	top: 5%;
 	background-color: #FAF5F2;
 	position: absolute;
@@ -148,7 +148,8 @@ footer {
  	padding-top: .4%;
  	padding-bottom: .2%;
  }
-@media only screen and (max-width: 1000px){
+
+@media only screen and (max-width: 900px){
 .info-block, .photo{
 	width: 100%;
 	padding: 2em
@@ -156,4 +157,20 @@ footer {
 	position: absolute;
 	clear: after;
 }
+@media (min-width: 640px) {
+.info-block, .photo{
+	width: 100%;
+	padding: 2em
+	background-color: #FAF5F2;
+	position: absolute;
+	clear: after;
+}
+
+@media (min-width: 768px) {
+.info-block, .photo{
+	width: 100%;
+	padding: 2em
+	background-color: #FAF5F2;
+	position: absolute;
+	clear: after;
 }
